@@ -1,0 +1,56 @@
+.minus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 40px;
+    height: 30px;
+    background-color: #f3f3f3;
+    color: white;
+    :hover{
+        cursor: pointer;
+    }
+    svg{
+        height: 50%;
+        width: 50%;
+    }
+}
+.plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 40px;
+    height: 30px;
+    background-color: #f3f3f3;
+    color: white;
+    :hover{
+        cursor: pointer;
+        
+    }
+    svg{
+        height: 50%;
+        width: 50%;
+       
+    }
+}
+.remove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 40px;
+    height: 30px;
+    background-color: #f3f3f3;
+    color: white;
+    svg{
+        height: 50%;
+        width: 50%;
+   
+    }
+
+    :hover{
+        cursor: pointer;
+
+    }
+}

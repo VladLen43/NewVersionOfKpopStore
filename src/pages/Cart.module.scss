@@ -1,0 +1,62 @@
+*{
+    text-decoration: none;
+}
+
+.bottomButtons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    :hover{
+            background-color: #f3f3f3;
+            color: black;
+            border-radius: 10px;
+    }
+    .bottomBack{
+        height: 100%;
+        background-color: black;
+        border-radius: 10px;
+        color: #f3f3f3;
+        text-decoration: none;
+     
+        a{  
+            text-decoration: none;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            border-radius: 10px;
+            background-color: black;
+            height: 40px;
+            color: #f3f3f3;
+            transition: 0.5s ease-out;
+            :hover{
+                background-color: #f3f3f3;
+                color: black;
+                border-radius: 10px;
+        }
+        }
+        
+    }
+    .bottomPay{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 40px;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    a{  
+        text-decoration: none;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 40px;
+        color: #f3f3f3;
+    }
+}
